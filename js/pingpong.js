@@ -21,7 +21,6 @@ Calculator.prototype.pingPong = function(number){
     }
   }
   return output;
-  console.log(output);
 }
 
 exports.calculatorModule = Calculator;

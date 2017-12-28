@@ -15,6 +15,7 @@ $(document).ready(function(){
     //need to create a Calculator object here so that the pingPong **method** can be called on it
     var results = simpleCalculator.pingPong(newNumber);
     //passed newNumber variable into pingPong method = array of output
+    console.log(results);
     results.forEach(function(element) {
       $("#solution").append("<li>" + element + "</li>");
     });
