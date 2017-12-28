@@ -1,0 +1,24 @@
+{
+  "name": "pingpong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatcat13/pingPong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatcat13/pingPong/issues"
+  },
+  "homepage": "https://github.com/thatcat13/pingPong#readme",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

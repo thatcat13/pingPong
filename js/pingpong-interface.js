@@ -1,6 +1,5 @@
 //frontend
-var Whatevs = require("./../js/sillyBackEndFile.js"); //specify which
-//property of exports we are interested in via 'require'
+var Whatevs = require("./../js/pingpong.js").calculatorModule; //specify which property of exports we are interested in via 'require'
 //store it in a new variable called Whatevs
 //Whatevs is uppercase bc it is an object constructor function
 
@@ -11,6 +10,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     var newNumber = $("#number").val();
+    console.log(newNumber);
     var simpleCalculator = new Whatevs("hot pink");
     //need to create a Calculator object here so that the pingPong **method** can be called on it
     var results = simpleCalculator.pingPong(newNumber);
